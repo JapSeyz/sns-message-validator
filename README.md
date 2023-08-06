@@ -43,6 +43,19 @@ protected function onDelivery(array $message, array $originalMessage, Request $r
 }
 ```
 
+Possible SES events:
+- Bounce
+- Complaint
+- Delivery
+- Send
+- Reject
+- Open
+- Click
+- RenderingFailure
+- DeliveryDelay
+- Subscription
+
+
 ## Testing
 
 ```bash
